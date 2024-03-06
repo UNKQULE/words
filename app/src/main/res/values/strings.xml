@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Words</string>
+    <string name="nickname_hint">Enter your nickname</string>
+    <string name="win_message">Congratulations! You Won! Your score is %1$d. Time left: %2$s</string>
+    <string name="lose_message">Game Over! You Lost! Your score is %1$d. Time left: %2$s</string>
+    <string name="statistics">Statistics</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="word">Word</string>
+    <string name="time">Time</string>
+    <string name="score">Score</string>
+    <string name="date">Date</string>
+</resources>

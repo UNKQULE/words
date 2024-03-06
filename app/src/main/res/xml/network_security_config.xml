@@ -1,0 +1,14 @@
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">95.31.215.151</domain>
+        <domain includeSubdomains="true">95.31.215.151/user</domain>
+        <domain includeSubdomains="true">95.31.215.151/game</domain>
+        <domain includeSubdomains="true">95.31.215.151/user/</domain>
+        <domain includeSubdomains="true">95.31.215.151/game/</domain>
+    </domain-config>
+</network-security-config>

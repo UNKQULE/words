@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+
+    <TextView
+        android:id="@+id/scoreMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="You Won!"
+        android:textColor="#212121"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Play Again"
+        android:padding="16dp"/>
+
+</RelativeLayout>
