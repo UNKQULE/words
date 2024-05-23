@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         playButton.setOnClickListener(v -> {
             String nickname = nicknameEditText.getText().toString().trim();
             saveNickname();
-            // Запускаем GameActivity
+
             Intent gameIntent = new Intent(MainActivity.this, GameActivity.class);
             gameIntent.putExtra("nickname", nickname);
             startActivity(gameIntent);
@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        executorService.shutdown(); // Закрываем ExecutorService при уничтожении Activity
+        executorService.shutdown();
+
     }
 }
